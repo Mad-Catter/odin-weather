@@ -1,0 +1,99 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: end;
+  height: 30px;
+  align-items: center;
+}
+label,
+button {
+  font-size: 1.5rem;
+}
+button {
+  background: none;
+  border: none;
+  margin-right: 15px;
+}
+input {
+  border-radius: 5px;
+  margin: 0 15px;
+  width: 200px;
+  font-family: 'Roboto', sans-serif;
+  font-size: inherit;
+  color: black;
+}
+body {
+  height: 100vh;
+  background-image: url('./snow.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header,
+.content {
+  background-color: rgba(0, 0, 0, 0.473);
+}
+.content {
+  width: 70vw;
+  margin: 10% auto;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px;
+}
+h1 {
+  width: 35%;
+  font-size: 3rem;
+  text-align: center;
+}
+.main-content {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-content {
+  display: flex;
+  align-items: center;
+  border-bottom: solid white 5px;
+  justify-content: space-evenly;
+  position: relative;
+}
+.all-temps {
+  position: relative;
+  width: 50%;
+}
+.all-temps > p {
+  font-size: 7rem;
+}
+.minmax {
+  position: absolute;
+  right: 0px;
+  top: -60px;
+}
+.max {
+  border-bottom: white 4px solid;
+}
+.max,
+.min {
+  padding: 0 8px;
+}
+p {
+  font-size: 3rem;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.temp {
+  font-size: 75%;
+  position: absolute;
+}
