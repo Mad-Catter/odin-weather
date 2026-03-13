@@ -30,7 +30,7 @@ input {
 }
 body {
   height: 100vh;
-  background-image: url('./snow.gif');
+  /* background-image: url('./backgrounds/snow.gif'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -39,6 +39,16 @@ body {
 header,
 .content {
   background-color: rgba(0, 0, 0, 0.473);
+}
+
+#error {
+  background-color: rgba(0, 0, 0, 0.884);
+  border: red 1px solid;
+  width: 500px;
+  position: absolute;
+  left: 1350px;
+  top: 35px;
+  font-size: 1.5rem;
 }
 .content {
   width: 70vw;
